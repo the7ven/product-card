@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+.product-card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.logo {
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+.nav {
+    display: flex;
+    gap: 10px;
+}
+.nav-item {
+    padding: 8px 13px;
+    background-color: #000000;
+    color: #ddd;
+    font-weight: 600;
+    border-radius: 15px;
+    transition: all ease-in-out .5S;
+}
+
+.nav-item:hover{
+    color: #60afe4;
+    background-color: black;
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+.product-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #ececec;
+    border-radius: 30px  ;
+    margin-bottom: 20px;
+}
+
+.product-image img{
+    width: 400px;
+}
+.product-title {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.product-code {
+    color: #888;
+    margin-bottom: 20px;
+}
+.rating {
+    background-color: #ddd;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 10px;
+}
+.discount {
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.sizes {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.size {
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+}
+.add-to-bag {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+}
+
+.add-to-bag:hover {
+    color: black;
+    background-color: cornflowerblue;
+    transform: translateY(10px);
+}
